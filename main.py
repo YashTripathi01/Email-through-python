@@ -2,7 +2,7 @@
 import smtplib
 import ssl
 from email.message import EmailMessage
-from constants import*
+from constants import SENDER_EMAIL
 import getpass
 
 subject = input('Enter the subject of the Email : ')
